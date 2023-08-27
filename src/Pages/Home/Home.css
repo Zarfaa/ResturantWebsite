@@ -17,11 +17,11 @@
 @keyframes animate {
     from {
         opacity: 0;
-        transform: translate(5%, 5%);
+        transform: translate(6%, 6%);
     }
     to {
         opacity: 1;
-        transform: translate( 3%, 3%);
+        transform: translate( 4%, 4%);
     }
 }
 
@@ -58,7 +58,7 @@
 .animated-scroll {
     opacity: 0;
     transform: translateY(50px);
-    animation: fadeInUp 3s forwards;
+    animation: fadeInUp 2s forwards;
 }
 
 @keyframes fadeInUp {
@@ -126,7 +126,7 @@
     font-size: 2em;
     font-weight: bolder;
     color: white; 
-    animation: countup 4s ease-in-out forwards;
+    animation: countup 3s ease-in-out forwards;
   }
 
   .label{

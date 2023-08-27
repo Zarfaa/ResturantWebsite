@@ -1,4 +1,3 @@
-import Home_Bg from "../../../Assets/home.jpg"
 
 
 let Hero =()=>{
