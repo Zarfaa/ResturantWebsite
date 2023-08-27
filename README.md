@@ -17,7 +17,7 @@ The Restaurant Website built using ReactJs with the basic functionality of Table
 
 
 # Preview
-![image](https://github.com/Zarfaa/Resturant_Website/assets/95335722/c28af35e-62ca-43f1-8920-baac4dca256c)
+
 
 
 
