@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
 
-  "homepage": "https://Zarfaa.github.io/Resturant_Website",
+  "homepage": "https://Zarfaa.github.io/Resturant_website",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

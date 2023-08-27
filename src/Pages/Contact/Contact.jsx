@@ -13,20 +13,20 @@ let Contact = () =>{
             <h1>Contact Us</h1>
         </div>
         <div className="Contact_container">
-        <div class="mb-3">
-  <input type="text" class="form-control" placeholder="Full Name"/>
+        <div className="mb-3">
+  <input type="text" className="form-control" placeholder="Full Name"/>
 </div>
-<div class="mb-3">
-  <input type="tel" class="form-control" placeholder="Phone Number"/>
+<div className="mb-3">
+  <input type="tel" className="form-control" placeholder="Phone Number"/>
 </div>
-        <div class="mb-3">
-  <input type="email" class="form-control" placeholder="Email"/>
+        <div className="mb-3">
+  <input type="email" className="form-control" placeholder="Email"/>
 </div>
-<div class="mb-3">
-  <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+<div className="mb-3">
+  <textarea className="form-control" rows="3" placeholder="Message"></textarea>
 </div>
-<div class="mb-3">
-<button type="button" class="btn rounded-pill">SUBMIT</button>
+<div className="mb-3">
+<button type="button" className="btn rounded-pill">SUBMIT</button>
 </div>
     </div>
   </>
