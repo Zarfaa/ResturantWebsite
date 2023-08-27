@@ -1,0 +1,39 @@
+.About_Nav{
+    position: relative;
+  }
+  
+  .About_Nav::before {
+    content: "";
+    background: url('../../Assets/About_Bg.jpg') center/cover no-repeat;
+    filter: brightness(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+.section-title{
+    padding: 10%;
+    color: orange;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3vw;
+    font-style: italic;
+}
+.about-us{
+    margin: 10%;
+}
+
+
+.about-image{
+    width: 100%;
+    height: 75%;
+    margin-bottom: 5%;
+}
+
+.Header{
+    font-weight: 900;
+    font-size: 3vw;
+}
+

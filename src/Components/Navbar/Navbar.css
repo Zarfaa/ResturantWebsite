@@ -1,0 +1,27 @@
+
+
+.nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+    color: white;
+  }
+
+
+.logo{
+    color: orange; 
+    margin-left: 10vw;
+    font-weight: 900;
+}
+
+#Btn-orange {
+    background-color: orange;
+    color: white;
+}
+
+
+.Toggle_icon {
+    color: white;
+  }
+

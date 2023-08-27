@@ -1,0 +1,13 @@
+footer{
+    background-color: black;
+    color: white;
+    padding: 5% 10%;
+}
+
+.btn{
+    background-color: orange;
+}
+
+.footer-area h4{
+    color: orange;
+}

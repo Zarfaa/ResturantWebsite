@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+.header{
+    font-family: 'Lemon', cursive;
+    margin: 5% 35%;
+    font-size: 4vw;
+    opacity: 0;
+    animation: animation 1s forwards;
+}
+.selected {
+    background-color: orange;
+    color: white ;
+}
+
+
+.Menu_btn {
+    border-bottom: 2px solid orange;
+    display: flex;
+    justify-content: center; 
+    margin: 0% 20%;
+    gap: 1vw;
+    margin-bottom: 1vw;
+    opacity: 0;
+    animation: animation 1s forwards;
+}
+.Menu_btn div{
+    padding: 1% 5%;
+}
+.Menu_btn a{
+    text-decoration: none;
+}
+.Menu_btn div:hover {
+    background-color: orange;
+    color: white;
+}
+
+.Items img{
+    width: 120px;
+    height: 120px;
+}
+
+.Items{
+    margin: 1% 25%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.Menu_title{
+    font-weight: 500;
+
+}
+.Menu_price{
+    color: orange;
+    font-weight: 500;
+}
+
+.Menu_items{
+    flex-basis: 20%;
+}
+
+@keyframes animation {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-20%);
+    }
+}
+
+@media screen and (max-width:1024px){
+    .Items{
+        margin: 1% 20%;
+        display: flex;
+        gap: 2vw;
+        flex-wrap: wrap; 
+    }
+
+    .Items img{
+        width: 100px;
+        height: 100px;
+    }
+    .Menu_title{
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width:425px){
+    .Menu_btn {
+        border-bottom: 2px solid orange;
+        display: flex;
+        justify-content: center; 
+        margin: 5% 10%;
+        gap: 1vw;
+        margin-bottom: 1vw;
+    }
+    .Items{
+        margin: 1% 10%;
+        display: flex;
+        gap: 2vw;
+        flex-wrap: wrap; 
+    }
+
+    .Items img{
+        width: 70px;
+        height: 70px;
+    }
+    .Menu_title{
+        font-weight: 500;
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .Items{
+        margin: 1% 20%;
+        display: flex;
+        gap: 2vw;
+        flex-wrap: wrap; 
+    }
+
+    .Items img{
+        width: 10vw;
+        height: 10vw;
+    }
+    .Menu_title{
+        font-weight: 500;
+        font-size: 1.5vw;
+    }
+
+    .Menu_price{
+        color: orange;
+        font-weight: 500;
+        font-size: 1vw;
+    }
+
+    .Menu_btn div{
+        padding: 1% 5%;
+        font-size: 1vw;
+    }
+}
+

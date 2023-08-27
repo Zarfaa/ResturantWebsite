@@ -1,0 +1,90 @@
+.Form_container{
+    background-image: url('../../Assets/Book_Form_Background.jpg');
+    background-size: cover; 
+  background-position: center center; 
+}
+
+.Form_title{
+    padding-top: 10%;
+    padding-left: 6%;
+}
+
+.Form_title span{
+    color: orange;
+}
+
+.two-column-form {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 50%;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 1vw;
+    box-sizing: border-box;
+  }
+  
+  .column label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .column input {
+    width: 100%;
+    padding: 0.5vw;
+    border: none;
+    border-bottom: 1px solid #181717;
+    margin-bottom: 15px;
+    outline: none; 
+    background-color: transparent;
+  }
+
+  .form_btn{
+    margin-top: 1vw;
+    color: white;
+    background-color: rgb(255, 147, 6);
+    border-radius: 25px;
+    padding: 0.5vw;
+    border: none;
+  }
+
+  @media screen and (max-width:425px) {
+    .Form_container{
+        background-image: url('../../Assets/Book_Form_Background.jpg');
+        background-size: cover; 
+      background-position: center center; 
+      font-size: 2vw;
+    }
+    .two-column-form {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 40%;
+        font-size: 1.5vw;
+      }
+      
+      .column {
+        flex: 1;
+        padding: 1vw;
+        box-sizing: border-box;
+      }
+      
+      .column label {
+        display: block;
+        font-weight: bold;
+      }
+      
+      .column input {
+        width: 100%;
+        padding: 0.5vw;
+        border: none;
+        border-bottom: 1px solid #181717;
+        margin-bottom: 2px;
+        outline: none; 
+        background-color: transparent;
+      }
+  }
+  
+  

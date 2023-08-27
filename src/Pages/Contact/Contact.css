@@ -1,0 +1,19 @@
+.Contact_title{
+     margin: 5%;
+    text-align: center;
+}
+
+.Contact_title span{
+    color: orange;
+}
+
+.Contact_container{
+  margin: 5% 25%;
+}
+
+.Contact_container button{
+  color: white;
+  background-color: orange;
+}
+
+ 
