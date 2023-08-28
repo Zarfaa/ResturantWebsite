@@ -3,9 +3,9 @@ The Restaurant Website built using ReactJs with the basic functionality of Table
 
 ## Run Locally
 
-`Clone the project -- git clone https://github.com/Zarfaa/Resturant_Website`<br><br>
+`Clone the project -- git clone git@github.com/Zarfaa/ResturantWebsite`<br><br>
 
-`Go to the project directory: cd Resturant_Website`<br><br>
+`Go to the project directory: cd ResturantWebsite`<br><br>
 
 `Install dependencies: npm install`<br><br>
 
@@ -17,8 +17,8 @@ The Restaurant Website built using ReactJs with the basic functionality of Table
 
 
 # Preview
-
-
+https://resturant-website-3mgoesxj0-zarfa.vercel.app/
+![sample1](https://github.com/Zarfaa/ResturantWebsite/assets/95335722/8f973dee-71a0-4264-8dc7-0031401312f6)
 
 
  ## Feedback
